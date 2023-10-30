@@ -1,0 +1,11 @@
+
+<h1>{{name$ | async}}</h1>
+<div>
+    <input class="form-group" type="number" name="counter" [(ngModel)] = "value" placeholder="Enter Value">
+    <button class="btn btn-primary" (click)="Add()">Add</button>
+</div>
+
+<div>
+    <button class="btn btn-danger"  (click)="changeName()">Change Name</button>
+</div>
+
